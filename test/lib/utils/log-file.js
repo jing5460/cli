@@ -16,7 +16,7 @@ const makeOldLogs = (count, oldStyle) => {
   const d = new Date()
   d.setHours(-1)
   d.setSeconds(0)
-  return range(count / (oldStyle ? 1 : 2)).reduce((acc, i) => {
+  return range(oldStyle ? count : (count / 2)).reduce((acc, i) => {
     const cloneDate = new Date(d.getTime())
     cloneDate.setSeconds(i)
     const dateId = LogFile.logId(cloneDate)
