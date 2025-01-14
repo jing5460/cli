@@ -3,21 +3,20 @@
 # ignore everything in the root
 /*
 
-# keep these
-!/.commitlintrc.js
-!/.npmrc
-!/.eslintrc*
-!/.github
 !**/.gitignore
-!/package.json
-!/docs
-!/bin
-!/lib
-!/map.js
-!/tap-snapshots
-!/test
-!/scripts
-!/README*
-!/LICENSE*
-!/SECURITY*
+!/.eslintrc.js
+!/.eslintrc.local.*
+!/.git-blame-ignore-revs
+!/.gitignore
+!/bin/
 !/CHANGELOG*
+!/docs/
+!/lib/
+!/LICENSE*
+!/map.js
+!/package.json
+!/README*
+!/scripts/
+!/tap-snapshots/
+!/test/
+tap-testdir*/
